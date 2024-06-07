@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Exo 2", sans-serif;
+}
+
+header {
+    background-color: blueviolet;
+    height: 6rem;
+    width: 100rem;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    height: 4rem;
+    padding: 15px 15px 0px 65px;
+}
+.KhanaDotCom {
+    color: white;
+}
+.order_header {
+    color: white;
+    padding-left: 17rem;
+    font-size: 3rem;
+    padding-right: 10rem;
+}
+.search {
+    border-radius: 10px;
+    background-color: #f4f4f5bf;
+    height: 2rem;
+    width: 15rem;
+    margin-top: 1rem;
+    margin-right: 10px;
+}
+.search:hover {
+    border: 2px solid blanchedalmond;
+}
+.search_btn {
+    background-color: #f4f4f5bf;
+    margin-top: 15px;
+    border-radius: 10px;
+    height: 30px;
+    width: 70px;
+}
+.search_btn:hover {
+    cursor: pointer;
+    border: 2px solid blanchedalmond;
+}
+main {
+    background-color: antiquewhite;
+    width: 100rem;
+}
+.headline {
+    padding: 20px 50px;
+}
+.search_bar {
+    border-radius: 10px;
+    height: 3rem;
+    display: flex;
+    position: relative;
+    left: 4rem;
+    padding-bottom: 2rem;
+}
+.search_input {
+    border-radius: 10px 0px 0px 10px;
+    width: 80rem;
+    font-size: 1rem;
+}
+.search_input:hover {
+    border: 2px solid blueviolet;
+}
+.recent {
+    border-radius: 0px 10px 10px 0px;
+    font-size: 1rem;
+    border: 1px solid black;
+}
+.recent:hover {
+    cursor: pointer;
+    border: 2px solid blueviolet;
+}
+.card {
+    background-color: white;
+    height: 5rem;
+    width: 87rem;
+    position: relative;
+    left: 4rem;
+    display: flex;
+    gap: 3rem;
+}
+.order_names {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reorder1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 47rem;
+}
+.reorder2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 55rem;
+}
+.reorder3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 51rem;
+}
+.reorder4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 59rem;
+}
+
+.reorderbtn {
+    height: 2rem;
+    width: 6rem;
+    border-radius: 10px;
+}
+.reorderbtn:hover {
+    cursor: pointer;
+    border: 2px solid blueviolet;
+}
+footer {
+    background-color: blueviolet;
+    color: white;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100rem;
+}
